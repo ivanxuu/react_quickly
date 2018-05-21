@@ -21,5 +21,6 @@ import "phoenix_html"
 // import socket from "./socket"
 
 //import hello from "./hello-world"
-import hello_framework from "./hello-framework-long"
+//import hello from "./hello-framework-long"
+import hello from "./hello-framework-jsx"
 
