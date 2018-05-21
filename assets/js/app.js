@@ -22,5 +22,6 @@ import "phoenix_html"
 
 //import hello from "./hello-world"
 //import hello from "./hello-framework-long"
-import hello from "./hello-framework-jsx"
+//import hello from "./hello-framework-jsx"
+import date_time from "./date-time"
 
