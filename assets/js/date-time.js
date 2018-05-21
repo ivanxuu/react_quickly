@@ -12,7 +12,15 @@ class DateTime extends React.Component{
   }
   render(){
     let time_in_days = this.time_in_days(this.props.plusDays, "In Spain", this.props.title)
-    return( React.createElement('div', this.props, `Hora: ${time_in_days}`))
+    return(
+      React.createElement('div', this.props,
+        <div>
+          <span>Hora:</span>
+          <span>{time_in_days}</span>
+          <input type="checkbox" disabled={true}/>
+        </div>
+      )
+    )
   }
 }
 
