@@ -11,7 +11,7 @@ class DateTime extends React.Component{
     return(plus_date + " " + join_extras)
   }
   render(){
-    let time_in_days = this.time_in_days(this.props.plusdays, "In Spain", this.props.title)
+    let time_in_days = this.time_in_days(this.props.plusDays, "In Spain", this.props.title)
     return( React.createElement('div', this.props, `Hora: ${time_in_days}`))
   }
 }
@@ -19,7 +19,7 @@ class DateTime extends React.Component{
 export default ReactDOM.render(
   <div>
     <DateTime title="Right Now" />
-    <DateTime plusdays="3" title="In 3 days"/>
+    <DateTime plus-days="3" title="In 3 days"/>
   </div>,
   document.getElementById('hello-world')
 )
